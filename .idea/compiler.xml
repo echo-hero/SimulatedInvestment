@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dataserver" />
+        <module name="personalinvestmentserver" />
+        <module name="indexview" />
+        <module name="indexzuulservice" />
+        <module name="indexcodesservice" />
+        <module name="eurekaserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="autoTask" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="autoTask" options="-parameters" />
+      <module name="dataserver" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="indexcodesservice" options="-parameters" />
+      <module name="indexview" options="-parameters" />
+      <module name="indexzuulservice" options="-parameters" />
+      <module name="personalinvestmentserver" options="-parameters" />
+    </option>
+  </component>
+</project>

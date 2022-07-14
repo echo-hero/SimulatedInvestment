@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: index-codes-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/MySQL?characterEncoding=UTF-8&useSSL-false&&serverTimezone=Asia/Shanghai
+    username: root
+    password: QWER1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

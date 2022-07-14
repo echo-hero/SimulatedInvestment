@@ -70,7 +70,7 @@ public class IndexController {
         }
     }
 
-    //同步单个基金（全量）
+    //同步单个基金 （全量）
     @GetMapping("/synchro/{fundcode}")
     public String synchro(@PathVariable("fundcode") String fundcode) throws Exception {
         try{
